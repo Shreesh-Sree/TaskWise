@@ -6,9 +6,9 @@ import joblib
 # -------------------------
 # 1. Load the trained model, scaler, and label encoder
 # -------------------------
-model_path = os.path.join("model", "super_model.pkl")
-scaler_path = os.path.join("model", "super_scaler.pkl")
-encoder_path = os.path.join("model", "label_encoder.pkl")
+model_path = os.path.join("models", "super_model.pkl")
+scaler_path = os.path.join("models", "super_scaler.pkl")
+encoder_path = os.path.join("models", "label_encoder.pkl")
 
 model = joblib.load(model_path)
 scaler = joblib.load(scaler_path)
